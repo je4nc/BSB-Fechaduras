@@ -1,0 +1,1 @@
+Insira aqui imagens autorizadas dos certificados e credenciais. Edite os blocos #credenciais e .footer-seals no index.html para referenciar os arquivos. Não publique dados pessoais desnecessários.

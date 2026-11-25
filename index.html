@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <!-- Configurações da página -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Brasília | Fechaduras Eletrônicas</title>
+        <link rel="icon" href="assets/logo.jpg">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!-- 01. Cabeçalho e menu de navegação -->
+        <header>
+            <a class="brand" href="#inicio">
+                <img src="assets/logo.jpg" alt="Logo Brasília Fechaduras Eletrônicas">
+                <div>BRASÍLIA<span>FECHADURAS ELETRÔNICAS</span></div>
+            </a>
+
+            <button id="menu" aria-label="Abrir menu" aria-expanded="false">☰</button>
+
+            <nav id="nav">
+                <a href="#sobre">Sobre</a>
+                <a href="#solucoes">Soluções</a>
+                <a href="#marcas">Marcas</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#portfolio">Instalações</a>
+                <a class="button" href="#contato">Orçamento</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- 02. Banner principal -->
+            <section class="hero" id="inicio">
+                <div>
+                    <small>SEGURANÇA • TECNOLOGIA • TRANQUILIDADE</small>
+
+                    <h1>Sua casa,<br> <em>mais inteligente.</em></h1>
+
+                    <p>Descubra uma nova maneira de proteger seu espaço com fechaduras eletrônicas e soluções de acesso inteligente.</p>
+
+                    <a class="button" href="#contato">Solicitar orçamento ↗</a>
+                    <a class="secondary" href="#solucoes">Conhecer soluções ↓</a>
+                </div>
+
+                <div class="visual">
+                    <img class="hero-logo" src="assets/logo.jpg" alt="Identidade visual Brasília Fechaduras Eletrônicas">
+                </div>
+            </section>
+
+            <!-- 03. Sobre a empresa -->
+            <section id="sobre">
+                <small>01 / SOBRE A BSB</small>
+                <h2>Segurança que acompanha<br> seu estilo de vida.</h2>
+
+                <p>A BSB Fechaduras Eletrônicas é uma marca voltada à tecnologia de acesso. Conheça possibilidades para tornar a entrada da sua casa ou empresa mais prática e moderna.</p>
+                <!-- Espaços editáveis: inserir somente documentos comprovados. -->
+                <div class="credentials" id="credenciais">
+                    <small>QUALIFICAÇÃO PROFISSIONAL</small>
+                    <h3>Credenciais e certificados</h3>
+                    <div class="credential-grid">
+                        <article class="credential-card">
+                            <!-- Substitua o espaço abaixo por uma imagem do certificado. -->
+                            <div class="credential-placeholder">Espaço para certificado</div>
+                            <h4>Certificação técnica</h4>
+                            <p>Documento a adicionar.</p>
+                        </article>
+                        <article class="credential-card">
+                            <div class="credential-placeholder">Espaço para credencial</div>
+                            <h4>Credenciamento profissional</h4>
+                            <p>Documento a adicionar.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 04. Soluções e serviços -->
+            <section id="solucoes">
+                <small>02 / SOLUÇÕES</small>
+                <h2>O futuro está na sua porta.</h2>
+
+                <div class="grid">
+                    <article>
+                        <b>01 /</b>
+                        <h3>Biometria</h3>
+                        <p>Acesso pela impressão digital em modelos compatíveis.</p>
+                    </article>
+
+                    <article>
+                        <b>02 /</b>
+                        <h3>Senha digital</h3>
+                        <p>Praticidade para acessar seu ambiente sem chaves.</p>
+                    </article>
+
+                    <article>
+                        <b>03 /</b>
+                        <h3>Acesso inteligente</h3>
+                        <p>Explore modelos com cartões, aplicativos e outras formas de acesso.</p>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Marcas informadas na identidade visual da empresa -->
+            <section id="marcas" class="brands-section">
+                <small>MARCAS COM QUE TRABALHAMOS</small>
+                <h2>Tecnologia de grandes marcas.</h2>
+                <div class="brands-grid">
+                    <div class="brand-card">intelbras</div>
+                    <div class="brand-card">ELSYS</div>
+                    <div class="brand-card">Primebras</div>
+                    <div class="brand-card"><span class="yale-name">Yale</span></div>
+                </div>
+            </section>
+
+            <!-- 05. Catálogo de produtos em carrossel -->
+            <section id="catalogo" class="carousel-section">
+                <div class="carousel-block" data-carousel>
+                    <div class="carousel-heading">
+                        <div>
+                            <small>03 / CATÁLOGO DE PRODUTOS</small>
+                            <h2>Encontre a solução ideal.</h2>
+                            <p>Conheça algumas categorias de fechaduras eletrônicas e consulte a BSB para encontrar o modelo adequado ao seu ambiente.</p>
+                        </div>
+
+                        <div class="carousel-controls" aria-label="Controles do catálogo de produtos">
+                            <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Produtos anteriores">←</button>
+                            <button class="carousel-arrow" type="button" data-carousel-next aria-label="Próximos produtos">→</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-track" data-carousel-track tabindex="0" aria-label="Categorias de fechaduras eletrônicas">
+                        <article class="carousel-card product-card">
+                            <div class="product-visual product-visual--biometric">
+                                <span class="visual-index">01 / BIOMETRIA</span>
+                                <img src="lock.svg" alt="Ilustração de fechadura eletrônica com teclado e leitor">
+                            </div>
+
+                            <div class="card-content">
+                                <small>ACESSO POR DIGITAL</small>
+                                <h3>Fechaduras biométricas</h3>
+                                <p>Praticidade para liberar o acesso por impressão digital, nos modelos compatíveis.</p>
+                                <a class="card-link" href="#contato">Consultar modelos ↗</a>
+                            </div>
+                        </article>
+
+                        <article class="carousel-card product-card">
+                            <div class="product-visual product-visual--password">
+                                <span class="visual-index">02 / SENHA</span>
+                                <img src="lock.svg" alt="Ilustração de fechadura eletrônica com teclado numérico">
+                            </div>
+
+                            <div class="card-content">
+                                <small>ACESSO POR CÓDIGO</small>
+                                <h3>Fechaduras com senha</h3>
+                                <p>Entre sem chave física e tenha mais praticidade na rotina, conforme os recursos do modelo.</p>
+                                <a class="card-link" href="#contato">Consultar modelos ↗</a>
+                            </div>
+                        </article>
+
+                        <article class="carousel-card product-card">
+                            <div class="product-visual product-visual--card">
+                                <span class="visual-index">03 / CARTÃO</span>
+                                <img src="lock.svg" alt="Ilustração de fechadura eletrônica para controle de acesso">
+                            </div>
+
+                            <div class="card-content">
+                                <small>ACESSO POR CARTÃO</small>
+                                <h3>Fechaduras com cartão</h3>
+                                <p>Uma alternativa de acesso para ambientes residenciais ou comerciais, conforme a instalação.</p>
+                                <a class="card-link" href="#contato">Consultar modelos ↗</a>
+                            </div>
+                        </article>
+
+                        <article class="carousel-card product-card">
+                            <div class="product-visual product-visual--smart">
+                                <span class="visual-index">04 / SMART</span>
+                                <img src="lock.svg" alt="Ilustração de fechadura eletrônica conectada">
+                            </div>
+
+                            <div class="card-content">
+                                <small>CONTROLE INTELIGENTE</small>
+                                <h3>Fechaduras conectadas</h3>
+                                <p>Explore opções com controle por aplicativo e funções inteligentes, quando disponíveis.</p>
+                                <a class="card-link" href="#contato">Consultar modelos ↗</a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <p class="carousel-note">Categorias e imagens ilustrativas. Consulte a BSB sobre modelos, acabamentos, compatibilidade e disponibilidade.</p>
+                </div>
+            </section>
+
+            <!-- 06. Portfólio de fechaduras instaladas em carrossel -->
+            <section id="portfolio" class="carousel-section portfolio-section">
+                <div class="carousel-block" data-carousel>
+                    <div class="carousel-heading">
+                        <div>
+                            <small>04 / PORTFÓLIO DE INSTALAÇÕES</small>
+                            <h2>Segurança instalada nos detalhes.</h2>
+                            <p>Veja os projetos realizados pela BSB. Os espaços abaixo são provisórios e devem receber fotografias reais das instalações.</p>
+                        </div>
+
+                        <div class="carousel-controls" aria-label="Controles do portfólio de instalações">
+                            <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Instalações anteriores">←</button>
+                            <button class="carousel-arrow" type="button" data-carousel-next aria-label="Próximas instalações">→</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-track" data-carousel-track tabindex="0" aria-label="Fotos das fechaduras instaladas">
+                        <article class="carousel-card installation-card">
+                            <div class="installation-visual installation-visual--home">
+                                <img src="lock.svg" alt="Ilustração provisória de fechadura instalada em porta residencial">
+                                <span class="photo-placeholder">INSIRA UMA FOTO REAL</span>
+                            </div>
+
+                            <div class="card-content">
+                                <small>INSTALAÇÃO 01</small>
+                                <h3>Ambiente residencial</h3>
+                                <p>Substitua este espaço por uma foto autorizada de uma instalação residencial.</p>
+                            </div>
+                        </article>
+
+                        <article class="carousel-card installation-card">
+                            <div class="installation-visual installation-visual--business">
+                                <img src="lock.svg" alt="Ilustração provisória de fechadura instalada em ambiente comercial">
+                                <span class="photo-placeholder">INSIRA UMA FOTO REAL</span>
+                            </div>
+
+                            <div class="card-content">
+                                <small>INSTALAÇÃO 02</small>
+                                <h3>Ambiente comercial</h3>
+                                <p>Mostre aqui o resultado de um serviço realizado em escritório ou estabelecimento.</p>
+                            </div>
+                        </article>
+
+                        <article class="carousel-card installation-card">
+                            <div class="installation-visual installation-visual--wood">
+                                <img src="lock.svg" alt="Ilustração provisória de fechadura instalada em porta de madeira">
+                                <span class="photo-placeholder">INSIRA UMA FOTO REAL</span>
+                            </div>
+
+                            <div class="card-content">
+                                <small>INSTALAÇÃO 03</small>
+                                <h3>Porta de madeira</h3>
+                                <p>Adicione uma fotografia que destaque o acabamento e os detalhes da instalação.</p>
+                            </div>
+                        </article>
+
+                        <article class="carousel-card installation-card">
+                            <div class="installation-visual installation-visual--modern">
+                                <img src="lock.svg" alt="Ilustração provisória de fechadura instalada em porta moderna">
+                                <span class="photo-placeholder">INSIRA UMA FOTO REAL</span>
+                            </div>
+
+                            <div class="card-content">
+                                <small>INSTALAÇÃO 04</small>
+                                <h3>Projeto especial</h3>
+                                <p>Use este card para apresentar uma instalação diferenciada feita pela equipe.</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <p class="carousel-note">Importante: substitua as ilustrações por fotos próprias e autorizadas antes de divulgar o portfólio como serviços realizados.</p>
+                </div>
+            </section>
+
+            <!-- 07. Contato e solicitação de orçamento -->
+            <section id="contato" class="contact">
+                <small>05 / CONTATO</small>
+                <h2>Abra a porta para<br> uma nova experiência.</h2>
+                <p>Entre em contato para consultar modelos, disponibilidade e orçamento.</p>
+
+                <!-- Canais oficiais de atendimento -->
+                <a class="button" href="https://www.instagram.com/bsbfechaduraseletronicas/" target="_blank" rel="noopener noreferrer">Fale pelo Instagram ↗</a>
+                <a class="secondary whatsapp-cta" data-whatsapp-link href="#" target="_blank" rel="noopener noreferrer">
+                    Solicitar orçamento pelo WhatsApp ↗
+                </a>
+            </section>
+        </main>
+
+        <!-- 08. Rodapé -->
+        <footer>
+            <div class="footer-brand">
+                <img src="assets/logo.jpg" alt="Brasília Fechaduras Eletrônicas">
+                <div>BRASÍLIA FECHADURAS ELETRÔNICAS<br>Segurança, tecnologia e tranquilidade</div>
+            </div>
+            <div class="footer-credentials">
+                <h3>Credenciais e certificados</h3>
+                <!-- Substitua os espaços por selos autorizados. -->
+                <div class="footer-seals">
+                    <span>Espaço para selo</span>
+                    <span>Espaço para certificado</span>
+                </div>
+                <a href="#credenciais">Ver credenciais ↑</a>
+            </div>
+        </footer>
+
+        <!-- Botão flutuante de atendimento pelo WhatsApp -->
+        <a
+            class="whatsapp-float"
+            data-whatsapp-link
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Conversar com a BSB Fechaduras pelo WhatsApp"
+            title="Fale conosco pelo WhatsApp"
+        >
+            <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+                <path d="M16.04 3C8.9 3 3.1 8.78 3.1 15.9c0 2.27.6 4.48 1.74 6.43L3 29l6.86-1.8a12.9 12.9 0 0 0 6.18 1.57h.01c7.13 0 12.94-5.79 12.95-12.91A12.82 12.82 0 0 0 25.2 6.7 12.84 12.84 0 0 0 16.04 3Zm0 23.57h-.01a10.7 10.7 0 0 1-5.45-1.49l-.39-.23-4.07 1.07 1.09-3.97-.25-.41a10.65 10.65 0 0 1-1.64-5.64c0-5.9 4.81-10.7 10.72-10.7 2.86 0 5.55 1.12 7.57 3.14a10.62 10.62 0 0 1 3.13 7.57c0 5.9-4.81 10.66-10.7 10.66Zm5.88-8c-.32-.16-1.9-.94-2.2-1.05-.3-.1-.51-.16-.73.16-.21.32-.84 1.05-1.03 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.6-1.6-.96-.85-1.61-1.9-1.8-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.57.16-.19.21-.32.32-.54.1-.21.05-.4-.03-.56-.08-.16-.73-1.75-1-2.4-.26-.63-.53-.54-.73-.55h-.62c-.21 0-.56.08-.86.4-.3.32-1.12 1.1-1.12 2.68 0 1.59 1.15 3.12 1.31 3.33.16.21 2.26 3.45 5.48 4.84.76.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.13-.29-.21-.61-.37Z"/>
+            </svg>
+            <span>WhatsApp</span>
+        </a>
+
+        <!-- Carregamento das funcionalidades JavaScript -->
+        <script src="script.js"></script>
+    </body>
+</html>
